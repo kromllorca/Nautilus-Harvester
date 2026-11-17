@@ -17,8 +17,8 @@ The Venice Lagoon needs continuous, real-time monitoring (Acqua Alta, salinity, 
 
 Nautilus Harvester is a buoy that powers a low-consumption ESP32 IoT sensor node from two complementary sources:
 
-- ☀️ **Solar:** a 10 W flexible, ETFE-coated monocrystalline panel on the buoy dome.
-- ⚡ **Waves:** an internal omnidirectional **electromagnetic pendulum generator** (Cardan joint + NdFeB magnets over flat copper coils) that converts wave and boat-wake motion into electricity — strongest in winter, when solar input is lowest.
+- **Solar:** a 10 W flexible, ETFE-coated monocrystalline panel on the buoy dome.
+- **Waves:** an internal omnidirectional **electromagnetic pendulum generator** (Cardan joint + NdFeB magnets over flat copper coils) that converts wave and boat-wake motion into electricity — strongest in winter, when solar input is lowest.
 
 <p align="center">
   <img src="buoy_architecture.png" width="45%" alt="Three-level buoy architecture">
