@@ -5,7 +5,7 @@
 Bachelor's Thesis in Industrial Engineering — Università degli Studi di Padova, Department of Industrial Engineering (DII)
 Author: **Krom Llorca Lloret** · Supervisor: Prof. Damiano Varagnolo · A.Y. 2025–2026 · Grade: **30 e lode / 30**
 
-📄 [Read the full thesis (PDF)](docs/Nautilus_Harvester_Thesis.pdf)
+📄 [Read the full thesis (PDF)](Nautilus_Harvester_Thesis.pdf)
 
 ---
 
@@ -21,8 +21,8 @@ Nautilus Harvester is a buoy that powers a low-consumption ESP32 IoT sensor node
 - ⚡ **Waves:** an internal omnidirectional **electromagnetic pendulum generator** (Cardan joint + NdFeB magnets over flat copper coils) that converts wave and boat-wake motion into electricity — strongest in winter, when solar input is lowest.
 
 <p align="center">
-  <img src="images/buoy_architecture.png" width="45%" alt="Three-level buoy architecture">
-  <img src="images/working_principle.png" width="50%" alt="Pendulum working principle">
+  <img src="buoy_architecture.png" width="45%" alt="Three-level buoy architecture">
+  <img src="working_principle.png" width="50%" alt="Pendulum working principle">
 </p>
 
 ## Power management — the *Nautilus Energy Hub*
@@ -30,7 +30,7 @@ Nautilus Harvester is a buoy that powers a low-consumption ESP32 IoT sensor node
 Bridge rectifier + smoothing capacitor for the pendulum's AC output, Schottky diodes for source isolation, a TP4056 CC/CV Li-Ion charger, and an **Arduino-controlled MOSFET dump load** as a secondary overvoltage protection layer.
 
 <p align="center">
-  <img src="images/power_flow_schematic.png" width="70%" alt="Energy Hub power flow schematic">
+  <img src="power_flow_schematic.png" width="70%" alt="Energy Hub power flow schematic">
 </p>
 
 ## Energy budget
@@ -50,8 +50,8 @@ Positive balance in every scenario; the battery alone provides 10–25 days of b
 - **Bench implementation** of the power-management subsystem: solar charging branch + Arduino monitoring and protection layer.
 
 <p align="center">
-  <img src="images/tinkercad_prototype.png" width="40%" alt="Tinkercad virtual prototype">
-  <img src="images/bench_prototype.png" width="50%" alt="Bench prototype">
+  <img src="tinkercad_prototype.png" width="40%" alt="Tinkercad virtual prototype">
+  <img src="bench_prototype.png" width="50%" alt="Bench prototype">
 </p>
 
 ## Firmware
