@@ -1,4 +1,4 @@
-# 🌊 Nautilus Harvester
+# Nautilus Harvester
 
 **A self-powered hybrid energy harvesting smart buoy for environmental monitoring in the Venice Lagoon.**
 
